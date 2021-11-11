@@ -24,5 +24,10 @@
 
 - defs
 - g 将元素放到一组，但是不能指定 viewBox, 需要 use 时，在外面 svg 指定
-- symbol 替换 g， 可以指定 viewBox
+- symbol 替换 g， 可以指定 viewBox， 可以同时定义多个
 - use href=#
+
+可以将上面代码封装为 Icon 组件
+
+如何快速集成 iconfont svg 图标。
+拷贝svg代码到 symbol 里面, 定义 id，修改 fill=currentColor 之类，然后就可以使用使用了。

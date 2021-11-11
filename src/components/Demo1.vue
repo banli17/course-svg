@@ -28,19 +28,12 @@
           <line x1="40" y1="50" x2="90" y2="50" stroke-width="12" stroke="currentColor"></line>
           <line x1="40" y1="80" x2="100" y2="80" stroke-width="12" stroke="currentColor"></line>
         </symbol>
+
       </defs>
     </svg>
 
     <svg width="30px" height="30px" style="color: green">
       <use href="#play"></use>
-    </svg>
-
-    <svg width="0" height="0">
-      <defs>
-        <symbol id="play" viewBox="0 0 100 100">
-          <polyline points="10 10 90 50 10 90" fill="currentColor"></polyline>
-        </symbol>
-      </defs>
     </svg>
 
     <svg width="30px" height="30px" style="color: deeppink">
@@ -49,6 +42,9 @@
 
     <svg width="0" height="0">
       <defs>
+        <symbol id="play" viewBox="0 0 100 100">
+          <polyline points="10 10 90 50 10 90" fill="currentColor"></polyline>
+        </symbol>
         <symbol id="arrow" viewBox="0 0 100 100">
           <polyline points="10 10 90 50 10 90" fill="transparent" stroke-width="8" stroke="currentColor"></polyline>
         </symbol>

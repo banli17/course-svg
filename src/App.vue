@@ -1,5 +1,8 @@
 <template>
-  <Demo1/>
+  <div>
+    <Demo1/>
+    <Icon name="arrow" class="icon"></Icon>
+  </div>
 </template>
 
 <script>
@@ -14,4 +17,8 @@ export default {
 </script>
 
 <style>
+.icon{
+  width: 50px;
+  height: 50px;
+}
 </style>
